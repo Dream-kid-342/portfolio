@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>E</span>nock<span>.</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <h1 class="fas" onclick="closemenu()">x</h1>
+                </ul>
+                <h1 class="fas" style="color: #ff004f;" onclick="openmenu()">≡</h1>
+                
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Enock</span><br> Mumo from Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images//img2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a 19 year old student pursuing my degree with a strong passion for web development.
+                        I specialize in frontend development using frameworks such as React and also good in Backend
+                        development familiar to packages such as Nodejs, MongoDB and express. As a full MERN Stack developer,
+                         i enjoy building scalable and dynamic applications, optimizing user experience.  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br> Designing Web interfaces</li>
+                            <li><span>Backend Development</span><br> Designing Web API endpoints</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>January - April 2024</span><br> Designing the interfaces of websites</li>
+                            <li><span>April - June 2024</span><br> building full stack web applications using Django</li>
+                            <li><span>June - curent</span><br> Designing Web API endpoints using MERN STACK</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>January - April 2024</span><br>Html, css, js at youth center</li>
+                            <li><span>April - June 2024</span><br>Django at Machakos university </li>
+                            <li><span>June - curent</span><br> MERN STACK at youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="./images/coding.png" alt="">
+                    <h2>Web Design</h2>
+                    <p>Creative Web designer crafting visual appealing, user-friendly websites with modern
+                        designs, seamless navigation and optimized performance for diverse clients
+                    </p>
+                    <a href="#">learn more</a> 
+                </div>
+                <div>
+                    <img src="./images/crop.png" alt="">
+                    <h2>frontend Design</h2>
+                    <p>i crafty visually appealing and responsive websites, ensuring seamless user experience
+                    with HtMl, CSS, JavaScript and React framework.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <img src="./images/app-store.png" alt="">
+                    <h2>Backend Structuring</h2>
+                    <p>i specialize in developing robust server-side applications, ensuring smooth
+                        database integration, API development, and performance optimization for scalable systems
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/images.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app conects you to different and interesting people around the world</p>
+                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/images (16).jpeg" alt="">
+                    <div class="layer">
+                        <h3>Delivery App</h3>
+                        <p>The app conects you to different and interesting people around the world</p>
+                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/images (18).jpeg" alt="">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>The app conects you to different and interesting people around the world</p>
+                        <a href="#"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <img src="./images/telegram.png" style="width: 40px; background: #fff;
+                     border-radius: 52%; border: 1px solid #262626;"> contact@example.com</p>
+                    <p> <img src="./images/phone.png" style="width: 40px; background: #fff;
+                     border-radius: 52%; border: 1px solid #262626;" alt=""> +254 76997 6688</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/18iJvGvD/?mibextid=qi2Omg"><img src="./images/facebook (2).png" alt=""></a>
+                        <a href="https://www.instagram.com/dreamkid_342/"><img src="./images/insta.png" alt=""></a>
+                        <a href="https://x.com/dreamkid_342?t=cb1T36f8esNOzV5qMyewWw&s=09&mx=2"><img src="./images/x.png" alt=""></a>
+                        <a href="https://github.com/Dream-kid-342"><img src="./images/git.png" alt=""></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a> 
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;" id="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required>
+                        <textarea id="message" name="Message" rows="6" placeholder="Your Message:"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Enock❤. Made by Enock.</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
