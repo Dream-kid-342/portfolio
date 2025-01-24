@@ -350,6 +350,8 @@ form input, form textarea{
 /*------ css for small screens ------*/
 @media only screen and (max-width: 600px){
     #header{
+        width: 100%;
+        height: auto;
         background: url(images/phoneSize.PNG)no-repeat;
         background-size: cover;
     }
